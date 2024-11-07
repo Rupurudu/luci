@@ -12,7 +12,7 @@
 	<div class="spinning">{{ _('Loading view…') }}</div>
 </div>
 
-<script>//<![CDATA[
+<script>
 function progressbar(query, value, max, byte)
 {
 	var pg = document.querySelector(query),
@@ -46,7 +46,7 @@ function renderBadge(icon, title) {
 	]);
 }
 
-//]]></script>
+</script>
 
 <div class="includes" style="display:none">
 {%
