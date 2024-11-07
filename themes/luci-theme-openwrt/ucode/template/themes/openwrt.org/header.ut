@@ -26,8 +26,8 @@
 {% if (css): %}
 <style type="text/css">{{ css }}</style>
 {% endif %}
-<script type="text/javascript" src="{{ dispatcher.build_url('admin/translations', dispatcher.lang) }}"></script>
-<script type="text/javascript" src="{{ resource }}/cbi.js"></script>
+<script src="{{ dispatcher.build_url('admin/translations', dispatcher.lang) }}"></script>
+<script src="{{ resource }}/cbi.js"></script>
 
 <title>{{ striptags(`${boardinfo.hostname ?? '?'}${node ? ` - ${_(node.title)}` : ''}`) }} - LuCI</title>
 </head>

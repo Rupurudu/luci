@@ -28,7 +28,7 @@
 	` });
 -%}
 
-<script type="text/javascript">//<![CDATA[
+<script>//<![CDATA[
 	function command_run(ev, id)
 	{
 		var field = document.getElementById(id);

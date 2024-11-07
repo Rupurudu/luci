@@ -1,6 +1,6 @@
 <%+cbi/valueheader%>
 
-<script type="text/javascript">//<![CDATA[
+<script>//<![CDATA[
 	var freqlist = <%= luci.http.write_json(self.iwinfo.freqlist) %>;
 	var hwmodes  = <%= luci.http.write_json(self.iwinfo.hwmodelist or {}) %>;
 	var htmodes  = <%= luci.http.write_json(self.iwinfo.htmodelist) %>;
@@ -196,6 +196,6 @@
 </label>
 <br style="clear:left" />
 
-<script type="text/javascript">cbi_init_wifi('<%= cbid %>');</script>
+<script>cbi_init_wifi('<%= cbid %>');</script>
 
 <%+cbi/valuefooter%>

@@ -52,7 +52,7 @@
 	));
 %}
 
-<script type="text/javascript">//<![CDATA[
+<script>//<![CDATA[
 	var input = document.getElementsByName('luci_password')[0];
 
 	if (input)
